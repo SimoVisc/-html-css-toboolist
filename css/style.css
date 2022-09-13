@@ -18,3 +18,29 @@ h1{
 .logo{
     vertical-align: middle;
 }
+.container{
+    background-color:#ffff ;
+    max-width: 800px;
+    margin: auto;
+}
+main{
+    
+    margin-top: 2%;
+}
+hr{
+    color: #F6F8F9;
+    margin-top: 2%;
+}
+h2{
+    vertical-align: middle;
+}
+.circle-check{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
