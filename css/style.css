@@ -5,12 +5,13 @@
 }
 body{
     background-color: #F6F8F9;
-    font-family: ;
+    font-family: 'Roboto'; sans-serif;
 }
 header{
     background-color:#ffff ;
     padding: 10px 20px;
 }
+/* intestazione */
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -18,18 +19,29 @@ h1{
 .logo{
     vertical-align: middle;
 }
+/* intestazione */
 .container{
     background-color:#ffff ;
     max-width: 800px;
     margin: auto;
+    padding-left: 50px; 
 }
 main{
     
     margin-top: 2%;
 }
+.button1{
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 20%;
+    margin: ;
+}
+
 hr{
-    color: #F6F8F9;
-    margin-top: 2%;
+    color: #ffff;
+    margin-top: 1%;
+    border: 1;
 }
 h2{
     vertical-align: middle;
@@ -41,6 +53,9 @@ h2{
     border-width: 1px;
     border-radius: 50%;
     text-align: center;
+}
+p{
+  display: inline-block;  
 }
 
 
