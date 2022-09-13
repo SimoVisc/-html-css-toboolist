@@ -5,7 +5,7 @@
 }
 body{
     background-color: #F6F8F9;
-    font-family: 'Roboto'; sans-serif;
+    font-family: 'Roboto'; 
 }
 header{
     background-color:#ffff ;
@@ -20,6 +20,7 @@ h1{
     vertical-align: middle;
 }
 /* intestazione */
+
 .container{
     background-color:#ffff ;
     max-width: 800px;
@@ -27,21 +28,29 @@ h1{
     padding-left: 50px; 
 }
 main{
-    
     margin-top: 2%;
 }
 .button1{
     color: white;
-    background-color: blue;
+    background-color: #45ABEA;
     border-color: white;
-    border-radius: 20%;
-    margin: ;
+    border-radius: 15%;
+    padding: 5px;
+    margin: 10px;
 }
-
-hr{
-    color: #ffff;
-    margin-top: 1%;
-    border: 1;
+.button2{
+    color: lightgray;
+    background-color:white;
+    border-color: lightgray;
+    border-radius: 15%;
+    padding: 5px;
+    margin: 10px;
+}
+hr{ 
+    background-color:#ffff ;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 50px;
 }
 h2{
     vertical-align: middle;
