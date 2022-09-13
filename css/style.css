@@ -10,6 +10,7 @@ body{
 header{
     background-color:#ffff ;
     padding: 10px 20px;
+    margin-bottom: 2%;
 }
 /* intestazione */
 h1{
@@ -25,11 +26,9 @@ h1{
     background-color:#ffff ;
     max-width: 800px;
     margin: auto;
-    padding-left: 50px; 
+    padding: 10px 50px; 
 }
-main{
-    margin-top: 2%;
-}
+
 .button1{
     color: white;
     background-color: #45ABEA;
@@ -47,24 +46,64 @@ main{
     margin: 10px;
 }
 hr{ 
-    background-color:#ffff ;
+    background-color:lightgray ;
     max-width: 800px;
-    margin: auto;
     padding-left: 50px;
 }
 h2{
     vertical-align: middle;
 }
+
 .circle-check{
     display: inline-block;
     height: 20px;
     width: 20px;
-    border-width: 1px;
+    border-top-color: green;
     border-radius: 50%;
     text-align: center;
+    color: lightgreen;
+    padding: 10px;
+    
 }
-p{
-  display: inline-block;  
+.circle-cross{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 0px;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+    border-color: red;
+    
 }
 
+span{
+    display: inline-block;  
+}
 
+.tag{
+    color: white;
+    border: none;
+    border-radius:30% ;
+    display: inline-block;
+    font-size:10px;
+    padding: 3px 5px;
+}
+.blu{
+    background-color: #45ABEA;
+}
+.viola{
+    background-color: #9C72E4
+}
+.verde{
+    background-color: #B0C926;
+}
+.rosa{
+    background-color: #D863A1;
+}
+.arancione{
+    background-color: #F29E33;
+}
+.verdescuro{
+   background-color: #64C0A9; 
+}
